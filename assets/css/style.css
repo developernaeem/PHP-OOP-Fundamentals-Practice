@@ -1,0 +1,119 @@
+body{
+	font-family: arial;
+	font-size: 16px;
+	line-height: 19px;
+	margin: 0 auto;
+	width: 850px;
+}
+a{
+	color: #3399FF;
+}
+.php_coding{
+	width: 1000px;
+	margin: 0 auto;
+	background-color: #ddd;
+}
+.header_area, .footer_area{
+	background: #833ab4;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	display: block;
+}
+.header_area h2, .footer_area h2{
+	margin: 0px;
+}
+.main_content{
+	min-height: 400px;
+	padding: 20px;
+}
+input[type="text"]{
+	width: 238px;
+	padding: 5px;
+}
+select{
+	font-size: 18px;
+	padding: 2px 5px;
+	width: 250px;
+}
+#myform{
+	width: 440px;
+	border: 1px solid #fff;
+	padding: 10px;
+}
+.table_design{
+	width: 420px;
+	border: 1px solid #fff;
+	margin: 20px 0px;
+}
+.table_design td,
+.tblone td{
+	padding: 5px 10px;
+	text-align: center;
+}
+table.table_design tr:nth-child(2n+1),
+table.tblone tr:nth-child(2n+1) {
+	background-color: #fff;
+	height: 30px;
+}
+table.table_design tr:nth-child(2n),
+table.tblone tr:nth-child(2n) {
+	background-color: #f1f1f1;
+	padding: 10px;
+}
+
+
+.main_left{
+	border-right: 1px dotted #999;
+	float: left;
+	margin-right: 16px;
+	width: 350px;
+}
+.main_right{
+	float: right;
+	width: 450px;
+}
+.tblone{
+	width: 100%;
+	border: 1px solid #fff;
+}
+input[type="text"]{
+	border: 1px solid #ddd;
+	margin-bottom: 5px;
+	padding: 5px;
+	width: 228px;
+	font-size: 16px;
+}
+input[type="submit"]{
+	cursor: pointer;
+	background-color: #fc6a32;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.insert{
+	color: #06960E;
+	font-weight: bold;
+}
+.delete{
+	color: #DE5A24;
+	font-weight: bold;
+}
+
+.create_new {
+    width: 100%;
+    text-align: right;
+    margin-bottom: 20px;
+}
+.create_new a {
+    text-decoration: none;
+    background-color: #fc6a32;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
